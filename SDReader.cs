@@ -81,6 +81,7 @@ namespace SDreader
                         }
                         else
                         {
+                            // First column doesn't have a name and it is a structure
                             columnName = "Structure";
                             columnValue = details[0].Trim();
                         }
